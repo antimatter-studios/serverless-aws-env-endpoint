@@ -1,0 +1,16 @@
+{
+    "name": "serverless-aws-env-endpoint-plugin",
+    "license": "MIT",
+    "version": "1.0.0",
+    "main": "src/main.js",
+    "type": "commonjs",
+    "description": "A serverless plugin that will configure AWS Endpoints via ENV variables.",
+    "author": {
+        "name": "Chris Thomas",
+        "email": "chris.thomas@antimatter-studios.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    }
+}
