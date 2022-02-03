@@ -20,4 +20,4 @@ AWS_ENDPOINT_S3
 AWS_ENDPOINT_DYNAMODB
 ```
 
-Make a pull request if a service is wanted, but not part of this list
+Make a pull request if a service is not part of this list.
