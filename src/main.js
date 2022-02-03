@@ -10,15 +10,27 @@ class ServerlessAwsConfigPlugin {
             };
         }
         
-        if(process.env.AWS_ENDPOINT_COGNITO_IDENTITY){
+        if(process.env.AWS_ENDPOINT_COGNITOIDENTITY){
             AWS.config.cognitoidentity = { 
-                endpoint: process.env.AWS_ENDPOINT_COGNITO_IDENTITY 
+                endpoint: process.env.AWS_ENDPOINT_COGNITOIDENTITY 
             };
         }
 
-        if(process.env.AWS_ENDPOINT_COGNITO_IDENTITY_SERVICE_PROVIDER){
+        if(process.env.AWS_ENDPOINT_COGNITOIDENTITYSERVICEPROVIDER){
             AWS.config.cognitoidentityserviceprovider = { 
-                endpoint: process.env.AWS_ENDPOINT_COGNITO_IDENTITY_SERVICE_PROVIDER 
+                endpoint: process.env.AWS_ENDPOINTCOGNITOIDENTITYSERVICEPROVIDER 
+            };
+        }
+
+        if(process.env.AWS_ENDPOINT_S3){
+            AWS.config.s3 = { 
+                endpoint: process.env.AWS_ENDPOINT_S3 
+            };
+        }
+
+        if(process.env.AWS_ENDPOINT_DYNAMODB){
+            AWS.config.dynamodb = { 
+                endpoint: process.env.AWS_ENDPOINT_DYNAMODB 
             };
         }
     }
