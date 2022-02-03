@@ -1,7 +1,7 @@
 {
     "name": "serverless-aws-env-endpoint-plugin",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "src/main.js",
     "type": "commonjs",
     "description": "A serverless plugin that will configure AWS Endpoints via ENV variables.",
@@ -15,5 +15,14 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
-    }
+    },
+    "keywords": [
+        "serverless",
+        "serverless framework",
+        "serverless local",
+        "serverless offline",
+        "serverless plugin",
+        "aws",
+        "amazon web services"
+    ]    
 }
