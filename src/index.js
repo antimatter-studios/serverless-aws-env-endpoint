@@ -10,15 +10,15 @@ class ServerlessAwsConfigPlugin {
             };
         }
         
-        if(process.env.AWS_ENDPOINT_COGNITOIDENTITY){
+        if(process.env.AWS_ENDPOINT_COGNITO_IDENTITY){
             AWS.config.cognitoidentity = { 
-                endpoint: process.env.AWS_ENDPOINT_COGNITOIDENTITY 
+                endpoint: process.env.AWS_ENDPOINT_COGNITO_IDENTITY
             };
         }
 
-        if(process.env.AWS_ENDPOINT_COGNITOIDENTITYSERVICEPROVIDER){
+        if(process.env.AWS_ENDPOINT_COGNITO_IDP){
             AWS.config.cognitoidentityserviceprovider = { 
-                endpoint: process.env.AWS_ENDPOINTCOGNITOIDENTITYSERVICEPROVIDER 
+                endpoint: process.env.AWS_ENDPOINT_COGNITO_IDP
             };
         }
 

@@ -2,7 +2,7 @@
     "name": "serverless-aws-env-endpoint-plugin",
     "license": "MIT",
     "version": "1.0.2",
-    "main": "src/main.js",
+    "main": "src/index.js",
     "type": "commonjs",
     "description": "A serverless plugin that will configure AWS Endpoints via ENV variables.",
     "author": {
