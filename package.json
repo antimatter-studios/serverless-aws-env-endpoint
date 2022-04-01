@@ -1,7 +1,7 @@
 {
-    "name": "serverless-aws-env-endpoint-plugin",
+    "name": "@antimatter-studios/serverless-aws-env-endpoint",
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "src/index.js",
     "type": "commonjs",
     "description": "A serverless plugin that will configure AWS Endpoints via ENV variables.",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/christhomas/serverless-aws-env-endpoint-plugin"
+        "url": "https://github.com/antimatter-studios/serverless-aws-env-endpoint"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
